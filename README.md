@@ -1,3 +1,22 @@
+### learned this with: 
+https://youtu.be/WU6xkdGmQ6I
+
+### installations
+- npm install bootstrap
+
+### process
+- go to node_modules > bootstrap > dist > css > bootstrap.css
+- right click and copy relative path 
+- go to index.js and add an import statement with the path but delete 'node_modules/' from the import statement. (e.g. if the import statement is 'node_modules/bootstrap/dist/css/bootstrap.css' you'll add the following to index.js: 'import bootstrap/dist/css/bootstrap.css')
+- THIS WILL ALREADY DO A THING TO YOUR CSS IT IS THAT EASY OMG
+- but if you want a fancy button, go to bootstrap documentation and pick a button:
+https://getbootstrap.com/docs/5.2/components/buttons/ 
+- for example, copy and paste this success button into your App.js and observe your success:
+<button type="button" class="btn btn-success">Success</button> 
+- you might wanna change class to className since class is for JS and className for JSX
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
