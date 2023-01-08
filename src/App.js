@@ -1,11 +1,11 @@
 import './App.css';
+import { Buttons } from './components/Buttons.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button>I'm a button!</button>
-        <button type="button" class="btn btn-success">Success</button>
+        <Buttons />
       </header>
     </div>
   );
